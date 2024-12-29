@@ -1,0 +1,32 @@
+# Project exclude paths
+/.gradle/
+/build/
+/composeApp/build/
+/composeApp/build/classes/kotlin/desktop/main/
+/composeApp/build/classes/kotlin/iosArm64/main/klib/
+/composeApp/build/classes/kotlin/iosSimulatorArm64/main/klib/
+/composeApp/build/classes/kotlin/iosX64/main/klib/
+
+# macOS-specific files
+.DS_Store
+
+# JetBrains IDEs (IntelliJ, Fleet)
+.idea/
+.fleet/
+
+# Kotlin and Gradle
+.kotlin/
+build/
+.gradle/
+
+# Local configuration
+local.properties
+
+# Android specific
+*.iml
+*.apk
+*.dex
+.cxx/
+
+# Logs
+*.log
